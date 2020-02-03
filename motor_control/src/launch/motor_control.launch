@@ -1,0 +1,7 @@
+<!-- Launch file for the motor_control package --> 
+<!-- Speed value can go between 0 - 1023 --> 
+<launch>
+	<node pkg="motor_control" name="motor_controller" type="motor_control.py" output="screen"> 
+	  <param name="speed" value="80" />
+	</node>
+</launch>

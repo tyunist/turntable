@@ -1,0 +1,8 @@
+prefix=/home/fla/turntable/motor_control/install
+
+Name: motor_control
+Description: Description of motor_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/fla/turntable/motor_control/install/lib 
+Requires: 
